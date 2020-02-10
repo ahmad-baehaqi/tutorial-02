@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="htp://www.thymeleaf.org">
+	<head>
+		<title>Calculator</title>
+	</head>
+	<body>
+		<h1>Simple calculator By Ahmad Baehaqi</h1>
+		<h3 th:text="'Angka pertama = ' + ${angka1}" ></h3>
+		<h3 th:text="'Angka kedua = ' + ${angka2}" ></h3>
+		<h3 th:text="${angka1} + ' + ' + ${angka2} + ' = ' + ${hasil} + ' (' + ${convert} + ')'"  ></h3>
+		
+	</body>
+</html>
